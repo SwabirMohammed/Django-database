@@ -22,7 +22,7 @@ app_name = "main"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("homepage", views.homepage, name="homepage"),
+    path("", views.homepage, name="homepage"),
     path("register", views.register_request, name="register")
 
 ]
